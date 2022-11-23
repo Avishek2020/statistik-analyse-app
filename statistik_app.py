@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Add a title and intro text
-st.title('Data Explorer / Daten-Explorer')
-st.text('This is a web app to allow exploration of Data Statistics / Dies ist eine Webanwendung, die die Erforschung von Datenstatistiken ermöglicht ')
+st.title('Data Explorer (Daten-Explorer)')
+st.text('This is a web app to allow exploration of Data Statistics\n Dies ist eine Webanwendung, die die Erforschung von Datenstatistiken ermöglicht ')
 
 # Create file uploader object
 upload_file = st.file_uploader('Upload a file containing data (.csv only)')
